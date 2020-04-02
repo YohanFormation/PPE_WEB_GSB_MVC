@@ -1,16 +1,6 @@
 <?php 
 
-class  Connexion
-{   
-    public $connexion;     
+$connexion = new PDO("mysql:host=localhost;dbname=stock_ppe","root","");
 
-        function __construct(){
-            $connexion = new PDO("mysql:host=localhost;dbname=stock_ppe","root","");
-            return $connexion;
-        }
-        
-        function getConnexion(){
-            return $this->connexion;
-        }
-}
+
 ?>

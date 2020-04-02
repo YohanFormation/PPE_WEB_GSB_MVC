@@ -1,20 +1,15 @@
 <html>
 <head>
     <title>STOCK</title>
-    <link rel="stylesheet" href="./css/styleBoarder.css">
-    <link rel="stylesheet" href="./css/styleSearchBar.css">
+    <link rel="stylesheet" href=".\css\styleBoarder.css">
+    <link rel="stylesheet" href=".\css\styleSearchBar.css">
 </head>
 <body>
-    Stock 
+
 <table border="3" cellspacing="3">
-<div class="caption">Inventory </div>
+<div class="caption">Stock service informatique </div>
 <div class="wrap">
-   <div class="search">
-      <input type="text" class="searchTerm" placeholder="What are you looking for?">
-      <button type="submit" class="searchButton">
-        <i class="fa fa-search"></i>
-     </button>
-   </div>
+
 </div>
 <div id="table">
 	<div class="header-row row">

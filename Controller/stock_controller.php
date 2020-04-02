@@ -1,19 +1,27 @@
 <?php 
-include ("./Model/stock_model.php");
-class StockController{
 
-    var $information = array();
+include("./Model/connexion.php");
+include("./Model/stock_model.php");
+
+class StockController{
 
     public function findAll(){
         $obj = new stock();
         $tab = $obj->findAll();
-        include ("./View/stock_view.php");
+        include("./View/stock_view.php");
     }
 
-    public function findCommencePar($CommencePar){
+    public function Contient(){
         $obj = new stock();
-        $tab = $obj->findCommencePar($CommencePar);
-        include ("./View/stock_view.php");
+        $tab = $obj->Contient("DELL");
+        include("./View/stock_view.php");
     }
+
+
 }
+
+
+
+
+
 ?>
